@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		2D1B0503271EA7E00061D9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0502271EA7E00061D9D2 /* AppDelegate.swift */; };
 		2D1B0505271EA7E00061D9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0504271EA7E00061D9D2 /* SceneDelegate.swift */; };
-		2D1B0507271EA7E00061D9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0506271EA7E00061D9D2 /* ViewController.swift */; };
 		2D1B050A271EA7E00061D9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B0508271EA7E00061D9D2 /* Main.storyboard */; };
 		2D1B050C271EA7E10061D9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B050B271EA7E10061D9D2 /* Assets.xcassets */; };
 		2D1B050F271EA7E10061D9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B050D271EA7E10061D9D2 /* LaunchScreen.storyboard */; };
+		2D1B0519271EE5F90061D9D2 /* IGAccountCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0518271EE5F90061D9D2 /* IGAccountCollectionViewController.swift */; };
+		2D1B051B271EE6190061D9D2 /* IGAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B051A271EE6190061D9D2 /* IGAccountCollectionViewCell.swift */; };
+		2D1B051D271EE6900061D9D2 /* IGAccountCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B051C271EE6900061D9D2 /* IGAccountCollectionReusableView.swift */; };
+		2D1B051F271EFF5E0061D9D2 /* IG API JSON Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B051E271EFF5E0061D9D2 /* IG API JSON Decodable.swift */; };
+		2D1B0521271F1C470061D9D2 /* CountFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0520271F1C470061D9D2 /* CountFunction.swift */; };
+		2D1B0523271F2BA50061D9D2 /* IGAccountListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0522271F2BA50061D9D2 /* IGAccountListCollectionViewController.swift */; };
+		2D1B0525271F2BC00061D9D2 /* IGAccountListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B0524271F2BC00061D9D2 /* IGAccountListCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D1B04FF271EA7E00061D9D2 /* Swift Practice # 97 Maroon IG Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 97 Maroon IG Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1B0502271EA7E00061D9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D1B0504271EA7E00061D9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D1B0506271EA7E00061D9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D1B0509271EA7E00061D9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D1B050B271EA7E10061D9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1B050E271EA7E10061D9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D1B0510271EA7E10061D9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1B0518271EE5F90061D9D2 /* IGAccountCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountCollectionViewController.swift; sourceTree = "<group>"; };
+		2D1B051A271EE6190061D9D2 /* IGAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D1B051C271EE6900061D9D2 /* IGAccountCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountCollectionReusableView.swift; sourceTree = "<group>"; };
+		2D1B051E271EFF5E0061D9D2 /* IG API JSON Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IG API JSON Decodable.swift"; sourceTree = "<group>"; };
+		2D1B0520271F1C470061D9D2 /* CountFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountFunction.swift; sourceTree = "<group>"; };
+		2D1B0522271F2BA50061D9D2 /* IGAccountListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountListCollectionViewController.swift; sourceTree = "<group>"; };
+		2D1B0524271F2BC00061D9D2 /* IGAccountListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGAccountListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,43 @@
 			children = (
 				2D1B0502271EA7E00061D9D2 /* AppDelegate.swift */,
 				2D1B0504271EA7E00061D9D2 /* SceneDelegate.swift */,
-				2D1B0506271EA7E00061D9D2 /* ViewController.swift */,
 				2D1B0508271EA7E00061D9D2 /* Main.storyboard */,
+				2D1B0526271FCA050061D9D2 /* JSON And Function */,
+				2D1B0516271EE59E0061D9D2 /* Account Collection */,
+				2D1B0517271EE5C80061D9D2 /* Account List */,
 				2D1B050B271EA7E10061D9D2 /* Assets.xcassets */,
 				2D1B050D271EA7E10061D9D2 /* LaunchScreen.storyboard */,
 				2D1B0510271EA7E10061D9D2 /* Info.plist */,
 			);
 			path = "Swift Practice # 97 Maroon IG Test";
+			sourceTree = "<group>";
+		};
+		2D1B0516271EE59E0061D9D2 /* Account Collection */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B0518271EE5F90061D9D2 /* IGAccountCollectionViewController.swift */,
+				2D1B051A271EE6190061D9D2 /* IGAccountCollectionViewCell.swift */,
+				2D1B051C271EE6900061D9D2 /* IGAccountCollectionReusableView.swift */,
+			);
+			path = "Account Collection";
+			sourceTree = "<group>";
+		};
+		2D1B0517271EE5C80061D9D2 /* Account List */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B0522271F2BA50061D9D2 /* IGAccountListCollectionViewController.swift */,
+				2D1B0524271F2BC00061D9D2 /* IGAccountListCollectionViewCell.swift */,
+			);
+			path = "Account List";
+			sourceTree = "<group>";
+		};
+		2D1B0526271FCA050061D9D2 /* JSON And Function */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B051E271EFF5E0061D9D2 /* IG API JSON Decodable.swift */,
+				2D1B0520271F1C470061D9D2 /* CountFunction.swift */,
+			);
+			path = "JSON And Function";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1B0507271EA7E00061D9D2 /* ViewController.swift in Sources */,
+				2D1B051D271EE6900061D9D2 /* IGAccountCollectionReusableView.swift in Sources */,
+				2D1B0521271F1C470061D9D2 /* CountFunction.swift in Sources */,
+				2D1B0523271F2BA50061D9D2 /* IGAccountListCollectionViewController.swift in Sources */,
+				2D1B051B271EE6190061D9D2 /* IGAccountCollectionViewCell.swift in Sources */,
 				2D1B0503271EA7E00061D9D2 /* AppDelegate.swift in Sources */,
+				2D1B051F271EFF5E0061D9D2 /* IG API JSON Decodable.swift in Sources */,
+				2D1B0519271EE5F90061D9D2 /* IGAccountCollectionViewController.swift in Sources */,
 				2D1B0505271EA7E00061D9D2 /* SceneDelegate.swift in Sources */,
+				2D1B0525271F2BC00061D9D2 /* IGAccountListCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
